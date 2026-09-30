@@ -1,0 +1,1 @@
+package com.pcguard.repository; import com.pcguard.entity.Heartbeat; import org.springframework.data.jpa.repository.JpaRepository; import org.springframework.transaction.annotation.Transactional; public interface HeartbeatRepository extends JpaRepository<Heartbeat,Long>{ @Transactional void deleteByComputerId(Long computerId); }

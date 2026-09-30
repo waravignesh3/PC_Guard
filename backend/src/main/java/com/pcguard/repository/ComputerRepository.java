@@ -1,0 +1,1 @@
+package com.pcguard.repository; import com.pcguard.entity.Computer; import org.springframework.data.jpa.repository.JpaRepository; import java.util.*; public interface ComputerRepository extends JpaRepository<Computer,Long>{ Optional<Computer> findByAgentId(String agentId); long countByStatus(Computer.Status status); }

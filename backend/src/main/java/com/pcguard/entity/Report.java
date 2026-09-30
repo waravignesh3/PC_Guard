@@ -1,0 +1,3 @@
+package com.pcguard.entity;
+import jakarta.persistence.*; import java.time.Instant;
+@Entity @Table(name="reports") public class Report { @Id @GeneratedValue(strategy=GenerationType.IDENTITY) public Long id; @ManyToOne(optional=false) @JoinColumn(name="computer_id") public Computer computer; @Column(name="report_type") public String reportType; public String title; @Column(columnDefinition="text") public String description; @Enumerated(EnumType.STRING) public Fault.Severity severity; @Column(name="created_at") public Instant createdAt; @Column(name="resolved_at") public Instant resolvedAt; public String status; @Column(name="generated_by") public String generatedBy; }

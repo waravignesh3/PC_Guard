@@ -1,0 +1,16 @@
+com\pcguard\agent\config\AgentConfig.class
+com\pcguard\agent\model\Snapshot.class
+com\pcguard\agent\model\Fault.class
+com\pcguard\agent\model\Enums$FaultState.class
+com\pcguard\agent\model\Enums$FaultSeverity.class
+com\pcguard\agent\network\BackendClient.class
+com\pcguard\agent\PCGuardAgentApplication.class
+com\pcguard\agent\service\FaultStateService.class
+com\pcguard\agent\service\IdentityService.class
+com\pcguard\agent\service\ConsoleDashboard.class
+com\pcguard\agent\detector\FaultDetector.class
+com\pcguard\agent\model\Enums$FaultCategory.class
+com\pcguard\agent\detector\ThresholdDetector.class
+com\pcguard\agent\model\Enums.class
+com\pcguard\agent\collector\OshiCollector.class
+com\pcguard\agent\service\OfflineQueue.class

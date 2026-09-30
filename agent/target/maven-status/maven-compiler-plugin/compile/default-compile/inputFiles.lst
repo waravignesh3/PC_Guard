@@ -1,0 +1,13 @@
+D:\Java\PC_Guard\agent\src\main\java\com\pcguard\agent\collector\OshiCollector.java
+D:\Java\PC_Guard\agent\src\main\java\com\pcguard\agent\config\AgentConfig.java
+D:\Java\PC_Guard\agent\src\main\java\com\pcguard\agent\detector\FaultDetector.java
+D:\Java\PC_Guard\agent\src\main\java\com\pcguard\agent\detector\ThresholdDetector.java
+D:\Java\PC_Guard\agent\src\main\java\com\pcguard\agent\model\Enums.java
+D:\Java\PC_Guard\agent\src\main\java\com\pcguard\agent\model\Fault.java
+D:\Java\PC_Guard\agent\src\main\java\com\pcguard\agent\model\Snapshot.java
+D:\Java\PC_Guard\agent\src\main\java\com\pcguard\agent\network\BackendClient.java
+D:\Java\PC_Guard\agent\src\main\java\com\pcguard\agent\PCGuardAgentApplication.java
+D:\Java\PC_Guard\agent\src\main\java\com\pcguard\agent\service\ConsoleDashboard.java
+D:\Java\PC_Guard\agent\src\main\java\com\pcguard\agent\service\FaultStateService.java
+D:\Java\PC_Guard\agent\src\main\java\com\pcguard\agent\service\IdentityService.java
+D:\Java\PC_Guard\agent\src\main\java\com\pcguard\agent\service\OfflineQueue.java

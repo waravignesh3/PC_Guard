@@ -1,0 +1,3 @@
+package com.pcguard.entity;
+import jakarta.persistence.*; import java.time.Instant;
+@Entity @Table(name="faults") public class Fault { @Id @GeneratedValue(strategy=GenerationType.IDENTITY) public Long id; @ManyToOne(optional=false) @JoinColumn(name="computer_id") public Computer computer; public String type; @Enumerated(EnumType.STRING) public Severity severity; public String message; public String metric; @Column(name="current_value") public Double currentValue; public Double threshold; @Column(name="detected_at") public Instant detectedAt; @Column(name="resolved_at") public Instant resolvedAt; @Enumerated(EnumType.STRING) public Status status=Status.ACTIVE; public enum Severity { INFO,WARNING,CRITICAL } public enum Status { ACTIVE,RESOLVED } }

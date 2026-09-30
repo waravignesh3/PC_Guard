@@ -1,0 +1,3 @@
+package com.pcguard.dto;
+import jakarta.validation.constraints.*; import java.time.Instant; import java.util.*;
+public final class AgentDtos { private AgentDtos(){} public record Registration(@NotBlank String agentId,@NotBlank String hostname,String os,String osVersion,String architecture,@NotBlank String agentVersion){} public record HeartbeatRequest(Instant timestamp,String agentVersion,String status){} public record TelemetryRequest(Instant timestamp,Map<String,Object> cpu,Map<String,Object> memory,List<Map<String,Object>> storage,List<Map<String,Object>> network,List<Map<String,Object>> gpu,Map<String,Object> temperature,Long uptime){} }

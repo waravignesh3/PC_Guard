@@ -1,0 +1,205 @@
+HTTP client is unavailable; events will remain queued until restart: java.io.IOException: Unable to establish loopback connection
+PC Guard Agent 1.0.0 started
+Computer: LAPTOP-H0RH5HAI
+Agent ID: 35444335-3232-5135-5848-485132324435
+OS: Windows
+Backend: OFFLINE
+Monitoring started.
+Unable to locate English counter names in registry Perflib 009. Assuming English counters. Error 0x80070057. See https://support.microsoft.com/en-us/help/300956/how-to-manually-rebuild-performance-counter-library-values
+CPU temperature sensor unavailable; reporting UNKNOWN.
+Unable to locate English counter names in registry Perflib 009. Counters may need to be rebuilt: 
+com.sun.jna.platform.win32.Win32Exception: The parameter is incorrect.
+	at com.sun.jna.platform.win32.Advapi32Util.registryGetStringArray(Advapi32Util.java:921)
+	at com.sun.jna.platform.win32.Advapi32Util.registryGetStringArray(Advapi32Util.java:898)
+	at oshi.driver.windows.registry.HkeyPerformanceDataUtil.mapCounterIndicesFromRegistry(HkeyPerformanceDataUtil.java:274)
+	at oshi.driver.windows.registry.HkeyPerformanceDataUtil.<clinit>(HkeyPerformanceDataUtil.java:51)
+	at oshi.driver.windows.registry.ProcessPerformanceData.buildProcessMapFromRegistry(ProcessPerformanceData.java:45)
+	at oshi.software.os.windows.WindowsOperatingSystem.queryProcessMapFromRegistry(WindowsOperatingSystem.java:315)
+	at oshi.util.Memoizer$1.get(Memoizer.java:61)
+	at oshi.software.os.windows.WindowsOperatingSystem.processMapToList(WindowsOperatingSystem.java:285)
+	at oshi.software.os.windows.WindowsOperatingSystem.queryAllProcesses(WindowsOperatingSystem.java:244)
+	at oshi.software.common.AbstractOperatingSystem.getProcesses(AbstractOperatingSystem.java:86)
+	at oshi.software.os.OperatingSystem.getProcesses(OperatingSystem.java:154)
+	at com.pcguard.agent.collector.OshiCollector.collect(OshiCollector.java:25)
+	at com.pcguard.agent.PCGuardAgentApplication.lambda$main$0(PCGuardAgentApplication.java:8)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:369)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:310)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Unable to locate English counter names in registry Perflib 009. Assuming English counters. Error 0x80070057. See https://support.microsoft.com/en-us/help/300956/how-to-manually-rebuild-performance-counter-library-values
+
+============================================================
+PC GUARD AGENT 1.0.0
+============================================================
+Computer : LAPTOP-H0RH5HAI
+Agent ID : 35444335-3232-5135-5848-485132324435
+OS       : Windows
+Status   : RUNNING
+Backend  : OFFLINE
+------------------
+CPU
+Usage    : UNKNOWN
+Status   : UNKNOWN
+MEMORY
+Usage    : 87.4%
+Status   : HEALTHY
+STORAGE
+C:\ Usage    : 79.4%
+D:\ Usage    : 3.0%
+Status   : HEALTHY
+TEMPERATURE
+CPU      : UNKNOWN
+Status   : UNKNOWN
+NETWORK
+Status   : CONNECTED
+ACTIVE FAULTS
+None
+# Last update: 11:00:46
+
+
+============================================================
+PC GUARD AGENT 1.0.0
+============================================================
+Computer : LAPTOP-H0RH5HAI
+Agent ID : 35444335-3232-5135-5848-485132324435
+OS       : Windows
+Status   : RUNNING
+Backend  : OFFLINE
+------------------
+CPU
+Usage    : 7.4%
+Status   : HEALTHY
+MEMORY
+Usage    : 87.5%
+Status   : WARNING
+STORAGE
+C:\ Usage    : 79.4%
+D:\ Usage    : 3.0%
+Status   : HEALTHY
+TEMPERATURE
+CPU      : UNKNOWN
+Status   : UNKNOWN
+NETWORK
+Status   : CONNECTED
+ACTIVE FAULTS
+WARNING HIGH_MEMORY_USAGE — Memory usage is elevated.
+# Last update: 11:00:56
+
+
+============================================================
+PC GUARD AGENT 1.0.0
+============================================================
+Computer : LAPTOP-H0RH5HAI
+Agent ID : 35444335-3232-5135-5848-485132324435
+OS       : Windows
+Status   : RUNNING
+Backend  : OFFLINE
+------------------
+CPU
+Usage    : 7.9%
+Status   : HEALTHY
+MEMORY
+Usage    : 87.4%
+Status   : WARNING
+STORAGE
+C:\ Usage    : 79.4%
+D:\ Usage    : 3.0%
+Status   : HEALTHY
+TEMPERATURE
+CPU      : UNKNOWN
+Status   : UNKNOWN
+NETWORK
+Status   : CONNECTED
+ACTIVE FAULTS
+WARNING HIGH_MEMORY_USAGE — Memory usage is elevated.
+# Last update: 11:01:07
+
+
+============================================================
+PC GUARD AGENT 1.0.0
+============================================================
+Computer : LAPTOP-H0RH5HAI
+Agent ID : 35444335-3232-5135-5848-485132324435
+OS       : Windows
+Status   : RUNNING
+Backend  : OFFLINE
+------------------
+CPU
+Usage    : 9.9%
+Status   : HEALTHY
+MEMORY
+Usage    : 87.6%
+Status   : WARNING
+STORAGE
+C:\ Usage    : 79.4%
+D:\ Usage    : 3.0%
+Status   : HEALTHY
+TEMPERATURE
+CPU      : UNKNOWN
+Status   : UNKNOWN
+NETWORK
+Status   : CONNECTED
+ACTIVE FAULTS
+WARNING HIGH_MEMORY_USAGE — Memory usage is elevated.
+# Last update: 11:01:17
+
+
+============================================================
+PC GUARD AGENT 1.0.0
+============================================================
+Computer : LAPTOP-H0RH5HAI
+Agent ID : 35444335-3232-5135-5848-485132324435
+OS       : Windows
+Status   : RUNNING
+Backend  : OFFLINE
+------------------
+CPU
+Usage    : 13.3%
+Status   : HEALTHY
+MEMORY
+Usage    : 88.0%
+Status   : WARNING
+STORAGE
+C:\ Usage    : 79.4%
+D:\ Usage    : 3.0%
+Status   : HEALTHY
+TEMPERATURE
+CPU      : UNKNOWN
+Status   : UNKNOWN
+NETWORK
+Status   : CONNECTED
+ACTIVE FAULTS
+WARNING HIGH_MEMORY_USAGE — Memory usage is elevated.
+# Last update: 11:01:27
+
+
+============================================================
+PC GUARD AGENT 1.0.0
+============================================================
+Computer : LAPTOP-H0RH5HAI
+Agent ID : 35444335-3232-5135-5848-485132324435
+OS       : Windows
+Status   : RUNNING
+Backend  : OFFLINE
+------------------
+CPU
+Usage    : 7.2%
+Status   : HEALTHY
+MEMORY
+Usage    : 87.7%
+Status   : WARNING
+STORAGE
+C:\ Usage    : 79.4%
+D:\ Usage    : 3.0%
+Status   : HEALTHY
+TEMPERATURE
+CPU      : UNKNOWN
+Status   : UNKNOWN
+NETWORK
+Status   : CONNECTED
+ACTIVE FAULTS
+WARNING HIGH_MEMORY_USAGE — Memory usage is elevated.
+# Last update: 11:01:38
+
